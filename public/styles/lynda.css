@@ -1,0 +1,174 @@
+html { min-height: 100%; border-bottom: 1px solid #fff; }
+body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; color: #999; }
+h1 { font-size: 1.3em; }
+h2 { font-size: 1em; }
+h2.cvListHeader { margin-top: 30px; margin-bottom: 7px; }
+ul, li { margin: 0; padding: 0; list-style: none; font-size: .9em; }
+ul.cvList li { padding: 3px 0; }
+ul.cvList { }
+#container { width: 800px; margin: 0 auto; }
+#header { padding: 30px 0; border-bottom: 1px solid #ddd; }
+#footer { border-top: 1px solid #ddd; }
+#mainContent { min-height: 550px; padding-top: 30px; }
+#footer { clear: both; height: 80px; margin-top: 30px; }
+#cvContainer { margin-left: 75px; border-left: 1px solid #ddd; padding-left: 35px; }
+.cvSubtle {
+	font-size: 12px;
+}
+ul#mainNav li { float: left; list-style: none; padding: 0 15px; font: .8em arial, helvetica, sans-serif;  }
+ul#mainNav { position: relative; top: 4px; border: 0px solid blue; overflow: auto; display: inline; float: right; }
+#mainNav a {
+	text-decoration: none;
+	color: #ccc;
+	font-size: 14px;
+}
+#mainNav a:hover {
+	color: #777;
+}
+#mainNav li:last-child {
+	margin-right: 0;
+	padding-right: 0;
+}
+ul#footerNav li { float: left; list-style: none; padding: 20px 15px 0; font: .8em arial, helvetica, sans-serif;  }
+ul#footerNav { border: 0px solid blue; overflow: auto; display: inline; float: left; }
+ul#homeNav li { list-style: none; padding: 10px 0; font: 1.2em arial, helvetica, sans-serif; text-align: right;  }
+ul#homeNav { display: none; border: 0px solid blue; margin-top: 180px; float: left; width: 400px; }
+ul#links li { padding: 6px 0; }
+#header img { margin: 0; padding: 0; }
+div { border: 0px solid blue; }
+#copyright { font: .7em arial, helvetica, sans-serif; color: #aaa; }
+div#galleryImage { margin: 30px 0; border: 0px solid blue; float: left; width: 100%; }
+div#galleryImage img { float: left; }
+div#imageDetails { border: 0px solid green; float: left; }
+div#imageDetails ul li { padding: 2px 20px 2px; font-size: .8em; }
+div#galleryNumbers { margin: 0 0 20px 0; }
+div#galleryNumbers a { outline: none; background: #eee; padding: 2px 4px; font-size: .9em; margin: 2px; text-decoration: none; border: 1px solid #ddd; display: block; float: left; width: 15px; text-align: center; }
+a.gallery { padding-left: 15px; }
+div#galleries a.first { padding-left: 0; }
+div.fauxFinishContainer { margin-top: 50px; }
+div.fauxFinishContainer:first-child { margin-top: 0 !important; }
+img#welcome { display: block; width: 600px; height: 400px; margin: 40px auto; }
+.borderPad { padding: 2px; border: 1px solid #ddd; }
+.first { margin-top: 0 !important; }
+h1#galleryTitle { margin: 24px 0 0 0; padding: 0; font-size: 14px; }
+
+a img { border: 0; }
+a { color: #555; }
+a:hover { text-decoration: none; }
+.contact-data { display: block; margin-top: 20px; }
+.contact-phone {
+	margin-top: 30px;
+}
+
+#mainContent.gallery {
+}
+
+.gallery a {
+	text-decoration: none;
+}
+
+#galNav a.selected,
+#galNav a:hover {
+	color: #777;
+}
+
+#galNav {
+	overflow: hidden;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+#galNav li {
+	float: left;
+	margin-right: 30px;
+}
+
+#galNav a {
+	font-size: 11px;
+	color: #ccc;
+}
+
+#galNav li:last-child {
+	margin-right: 0;
+}
+
+#stage,
+#mainImgContainer,
+#imgWrapper {
+	position: relative;
+}
+
+#stage {
+	overflow: hidden;
+}
+
+#imgWrapper {
+	overflow: hidden;
+	float: right;
+	display: inline-block;
+}
+
+#mainImgContainer {
+	overflow: hidden;
+	float: left;
+	width: 600px;
+}
+
+#mainImg {
+	float: right;
+	max-width: 600px;
+	max-height: 500px;
+}
+
+#imgLoader {
+	background: #fff url("/public/images/site/loader.gif") no-repeat center center;
+	opacity: .9;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#controls {
+	margin-bottom: 8px;
+}
+
+#controls a {
+	color: #bbb;
+	padding: 10px;
+	font-size: 24px;
+}
+
+#imgTitle {
+	font-size: 12px;
+	display: inline-block;
+	color: #777;
+}
+
+#imgMeta {
+	width: 170px;
+	display: inline-block;
+	margin-left: 10px;
+	color: #bbb;
+}
+
+#imgMeta span {
+	font-size: 12px;
+}
+
+#imgMedium,
+#imgCollection {
+	display: block;
+}
+
+.web-tag {
+	float: right;
+}
+
+.gallery #mainNav .gallery,
+.cv #mainNav .cv,
+.bio #mainNav .bio,
+.contact #mainNav .contact {
+	color: #777;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "lynda-curry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agentfitz/lyndacurry.git"
+  },
+  "author": "Brian FitzGerald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agentfitz/lyndacurry/issues"
+  },
+  "homepage": "https://github.com/agentfitz/lyndacurry#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "fastify": "^3.27.2",
+    "fastify-static": "^4.5.0",
+    "point-of-view": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

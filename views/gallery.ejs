@@ -1,0 +1,228 @@
+
+
+<script>
+	$(function(){
+
+		var dom = {},
+
+			state = {},
+
+			setupInitialState = function(){
+
+				state.currentIdx = 0;
+				state.galIdx = 0;
+				state.imgData = {};
+
+			},
+
+			setupDom = function(){
+
+				dom.document = $(document);
+				dom.mainContent = $("#mainContent");
+				dom.galNav = $("#galNav");
+				dom.mainImg = $("#mainImg");
+				dom.imgTitle = $("#imgTitle");
+				dom.imgDate = $("#imgDate");
+				dom.imgMedium = $("#imgMedium");
+				dom.imgCollection = $("#imgCollection");
+				dom.loader = $("#imgLoader");
+
+			},
+
+			addEventHandlers = function(){
+
+				dom.document.on("click", ".next", function(e){
+
+					loadNext();
+
+					e.preventDefault();
+
+				});
+
+				dom.document.on("click", ".prev", function(e){
+
+					loadPrev();
+
+					e.preventDefault();
+
+				});
+
+				dom.document.on("click", ".gal-link", function(e){
+
+					var $link = $(this);
+
+					state.currentIdx = 0;
+
+					state.galIdx = parseInt($link.attr("data-gal-idx"), 10);
+
+					renderImg();
+
+					renderGalleryLinks();
+
+					e.preventDefault();
+
+				});
+
+				dom.document.on("keydown", function(e){
+
+					console.log("keypressed");
+
+					if(e.which === 39) { // right
+
+						console.log("right");
+
+						loadNext();
+
+					}
+
+					else if (e.which === 37) { // left
+
+						console.log("left");
+
+						loadPrev();
+
+					}
+
+				});
+
+			},
+
+			loadNext = function(){
+
+				var currentGallery = state.imgData.galleries[state.galIdx];
+
+				state.currentIdx++;
+
+				if(state.currentIdx >= currentGallery.images.length){
+					state.currentIdx = 0;
+				}
+
+				renderImg();
+
+			},
+
+			loadPrev = function(){
+
+				var currentGallery = state.imgData.galleries[state.galIdx];
+
+				state.currentIdx--;
+
+				if(state.currentIdx < 0){
+					state.currentIdx = currentGallery.images.length - 1;
+				}
+
+				renderImg();
+
+			},
+
+			renderGalleryLinks = function(){
+
+				var galleries = state.imgData.galleries,
+					galNavStr = "",
+					selected,
+					i;
+
+
+				for(i = 0; i < galleries.length; i++){
+
+					selected = i === state.galIdx ? "selected" : "";
+
+					galNavStr += "<li><a href='#' class='gal-link "
+							  + selected + "' data-gal-idx='"
+							  + i + "'>"
+							  + galleries[i].title
+							  + "</a></li>";
+
+				}
+
+				dom.galNav.html(galNavStr);
+
+			},
+
+			renderImg = function(){
+
+				var curGal = state.imgData.galleries[state.galIdx];
+
+				var img = curGal.images[state.currentIdx];
+
+
+				dom.loader.show();
+
+
+				dom.mainImg.off().on("load", function(){
+
+					dom.loader.hide();
+
+				});
+
+				dom.mainImg.attr("src", "public/images/gallery/" + curGal.directory + "/" + img.file);
+
+				dom.imgTitle.text(img.title);
+				dom.imgDate.text(img.date.length ? ", " + img.date : "");
+				dom.imgMedium.text(img.medium);
+				dom.imgCollection.text(img.collection);
+
+			},
+
+			getGalleryData = function(){
+
+				$.ajax({
+					type: "GET",
+					dataType: "json",
+					url: "/public/data/siteData.json",
+					success: function(result){
+
+						state.imgData = result;
+
+						renderGalleryLinks();
+
+						renderImg();
+
+					},
+					error: function(){
+						console.log("no dice");
+						console.log(arguments);
+					}
+				});
+
+			},
+
+			init = function(){
+
+				setupInitialState();
+
+				setupDom();
+
+				addEventHandlers();
+
+				getGalleryData();
+
+			};
+
+		init();
+
+	});
+</script>
+
+<div id="mainContent" class="gallery">
+	<ul id="galNav"></ul>
+	<div id="galContainer">
+		<div id="stage">
+			<div id="mainImgContainer">
+				<div id="imgWrapper">
+					<div id="imgLoader"></div>
+					<img id="mainImg">
+				</div>
+			</div>
+			<div id="imgMeta">
+				<div id="controls">
+					<a href="#" class="prev"><</a>
+					<a href="#" class="next">></a>
+				</div>
+				<span id="imgTitle"></span><span id="imgDate"></span>
+				<span id="imgMedium"></span>
+				<span id="imgCollection"></span>
+			</div>
+		</div>
+	</div>
+</div>

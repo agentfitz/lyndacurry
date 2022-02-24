@@ -1,0 +1,492 @@
+{
+
+	"galleries": [
+
+		{
+			"title": "BUNDLE",
+			"directory": "bundle",
+			"images": [
+				{
+					"title": "You Cabled My Heart",
+					"date": "2012",
+					"collection": "",
+					"medium": "",
+					"file": "01.jpg"
+				},
+				{
+					"title": "You Cabled My Heart",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "02.jpg"
+				},
+				{
+					"title": "You Cabled My Heart",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "03.jpg"
+				},
+				{
+					"title": "You Cabled My Heart detail",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "04.jpg"
+				},
+				{
+					"title": "SUMMERTIME",
+					"date": "2008",
+					"collection": "private collection",
+					"medium": "",
+					"file": "05.jpg"
+				},
+				{
+					"title": "Yellow Bundles",
+					"date": "2009",
+					"collection": "private collection",
+					"medium": "",
+					"file": "06.jpg"
+				},
+				{
+					"title": "LOVE",
+					"date": "2010",
+					"collection": "",
+					"medium": "",
+					"file": "08.jpg"
+				},
+				{
+					"title": "LOVE + MIRROR",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "07.jpg"
+				},
+				{
+					"title": "NAVIGATION",
+					"date": "2008",
+					"collection": "private collection",
+					"medium": "",
+					"file": "09.jpg"
+				},
+				{
+					"title": "Rainy Day Parade",
+					"date": "2009",
+					"collection": "private collection",
+					"medium": "",
+					"file": "10.jpg"
+				},
+				{
+					"title": "Not Just Black and White",
+					"date": "2009",
+					"collection": "private collection",
+					"medium": "",
+					"file": "11.jpg"
+				}
+			]
+		},
+		{
+			"title": "TEXT",
+			"directory": "text",
+			"images": [
+				{
+					"title": "Colloquial Fruition",
+					"date": "2013",
+					"collection": "",
+					"medium": "",
+					"file": "01.jpg"
+				},
+				{
+					"title": "Colloquial Fruition detail",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "02.jpg"
+				},
+				{
+					"title": "A CAFE",
+					"date": "2006",
+					"collection": "",
+					"medium": "",
+					"file": "03.jpg"
+				},
+				{
+					"title": "MIRROR",
+					"date": "2010",
+					"collection": "",
+					"medium": "wire+plaster+paint",
+					"file": "04.jpg"
+				},
+				{
+					"title": "MIRROR gallery view",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "05.jpg"
+				},
+				{
+					"title": "MIRROR detail",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "06.jpg"
+				},
+				{
+					"title": "Cube",
+					"date": "2011",
+					"collection": "Greenbridge Collection",
+					"medium": "",
+					"file": "07.jpg"
+				},
+				{
+					"title": "Projection",
+					"date": "",
+					"collection": "",
+					"medium": "Spray Foam + light",
+					"file": "08.jpg"
+				},
+				{
+					"title": "SHIFT",
+					"date": "2013",
+					"collection": "",
+					"medium": "",
+					"file": "09.jpg"
+				},
+				{
+					"title": "SHIFT detail",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "10.jpg"
+				},
+				{
+					"title": "Embrace + Inspire",
+					"date": "2012",
+					"collection": "private collection",
+					"medium": "",
+					"file": "11.jpg"
+				}
+			]
+		},
+		{
+			"title": "COLLAGE + PAINTING",
+			"directory": "collage",
+			"images": [
+				{
+					"title": "FLORIDA",
+					"date": "2012",
+					"collection": "private collection",
+					"medium": "",
+					"file": "01.jpg"
+				},
+				{
+					"title": "FLORIDA gallery view",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "02.jpg"
+				},
+				{
+					"title": "Little KEY",
+					"date": "2012",
+					"collection": "private collection",
+					"medium": "",
+					"file": "03.jpg"
+				},
+				{
+					"title": "Dynamic",
+					"date": "2011",
+					"collection": "",
+					"medium": "",
+					"file": "04.jpg"
+				},
+				{
+					"title": "Party",
+					"date": "2014",
+					"collection": "",
+					"medium": "",
+					"file": "05.jpg"
+				},
+				{
+					"title": "SHELTER 1",
+					"date": "2014",
+					"collection": "",
+					"medium": "",
+					"file": "06.jpg"
+				},
+				{
+					"title": "SHELTER 2",
+					"date": "2014",
+					"collection": "",
+					"medium": "",
+					"file": "07.jpg"
+				},
+				{
+					"title": "SHELTER 3",
+					"date": "2014",
+					"collection": "",
+					"medium": "",
+					"file": "08.jpg"
+				},
+				{
+					"title": "STARDUST gallery view",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "09.jpg"
+				},
+				{
+					"title": "STARDUST",
+					"date": "2014",
+					"collection": "",
+					"medium": "",
+					"file": "10.jpg"
+				},
+				{
+					"title": "XEROX",
+					"date": "2006",
+					"collection": "",
+					"medium": "",
+					"file": "11.jpg"
+				}
+			]
+		},
+		{
+			"title": "ROUTE",
+			"directory": "route",
+			"images": [
+				{
+					"title": "NYPF",
+					"date": "2011",
+					"collection": "private collection",
+					"medium": "",
+					"file": "01.jpg"
+				},
+				{
+					"title": "NYPF detail",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "02.jpg"
+				},
+				{
+					"title": "Chapel Hill",
+					"date": "2013",
+					"collection": "140 West Franklin collection",
+					"medium": "",
+					"file": "04.jpg"
+				},
+				{
+					"title": "Chapel Hill detail",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "03.jpg"
+				},
+				{
+					"title": "Detroit detail",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "05.jpg"
+				},
+				{
+					"title": "Bear Mtn. detail",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "06.jpg"
+				},
+				{
+					"title": "PILGRIMAGE",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "07.jpg"
+				},
+				{
+					"title": "PILGRIMAGE detail",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "08.jpg"
+				},
+				{
+					"title": "East Coast",
+					"date": "2013",
+					"collection": "Fidelity Investments collection",
+					"medium": "",
+					"file": "09.jpg"
+				},
+				{
+					"title": "East Coast gallery view",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "10.jpg"
+				},
+				{
+					"title": "Pace",
+					"date": "2010",
+					"collection": "",
+					"medium": "",
+					"file": "11.jpg"
+				}
+			]
+		},
+		{
+			"title": "MONOPRINT",
+			"directory": "monoprint",
+			"images": [
+				{
+					"title": "",
+					"date": "",
+					"collection": "140 West Franklin collection",
+					"medium": "",
+					"file": "01.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "140 West Franklin collection",
+					"medium": "",
+					"file": "02.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "03.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "04.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "05.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "06.jpg"
+				},
+				{
+					"title": "Connectivity",
+					"date": "2009",
+					"collection": "",
+					"medium": "",
+					"file": "07.jpg"
+				},
+				{
+					"title": "Connectivity detail",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "08.jpg"
+				}
+			]
+		},
+		{
+			"title": "CABIN",
+			"directory": "cabin",
+			"images": [
+				{
+					"title": "NC Cabin Residency",
+					"date": "2012",
+					"collection": "",
+					"medium": "",
+					"file": "01.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "02.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "03.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "04.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "05.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "06.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "07.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "08.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "09.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "10.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "11.jpg"
+				},
+				{
+					"title": "",
+					"date": "",
+					"collection": "",
+					"medium": "",
+					"file": "12.jpg"
+				}
+			]
+		}
+
+	]
+
+}

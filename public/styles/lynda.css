@@ -166,6 +166,11 @@ a:hover { text-decoration: none; }
 	float: right;
 }
 
+.bio #mainContent {
+	width: 500px;
+	float: right;
+}
+
 .gallery #mainNav .gallery,
 .cv #mainNav .cv,
 .bio #mainNav .bio,

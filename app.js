@@ -5,7 +5,7 @@ var server = require('fastify')({ logger: true });
 var pov = require('point-of-view');
 var static = require('fastify-static');
 var ejs = require('ejs');
-var port = 8002;
+var port = 80;
 
 
 // Configure the server to listen on the desired port

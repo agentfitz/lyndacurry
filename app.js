@@ -9,7 +9,7 @@ var port = 8002;
 
 
 // Configure the server to listen on the desired port
-server.listen(port, (err) => {
+server.listen(port, '0.0.0.0', (err) => {
 
 	if (err) {
 		console.log(err);
